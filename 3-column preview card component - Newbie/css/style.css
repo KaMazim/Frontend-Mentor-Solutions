@@ -47,7 +47,7 @@ p {
 /* Main Container */
 section.main-container {
     width: 100%;
-    min-height: 95vh;
+    min-height: 100vh;
     display:flex;
     background-color: hsl(0, 0%, 95%);
     padding: 5vh 5vw;
