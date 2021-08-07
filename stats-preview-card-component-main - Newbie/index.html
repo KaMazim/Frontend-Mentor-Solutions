@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <style>
+    .attribution {
+    font-size: 12px;   
+    text-align: center;
+    background-color: #303030; 
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 10px 10px;
+    border-radius: 20px 20px 0 0;
+    min-height: 5vh;
+    }
+    .attribution::selection {
+      color: #303030;
+      background-color: hsla(0, 0%, 100%, 0.75);
+    }
+    .attribution a { color: hsl(228, 47%, 48%); transition: all 0.3s;}
+    .attribution a:hover { color: hsl(44, 47%, 48%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <div class="sideA">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="icons-container">
+          <div>
+            <h2>10k+</h2>
+            <span>companies</span>
+          </div>
+          <div>
+            <h2>324</h2>
+            <span>templates</span>
+          </div>
+          <div>
+            <h2>12M+</h2>
+            <span>queries</span>
+          </div>
+        </div>
+      </div>
+      <div class="sideB">
+        <div class="filter"></div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/KaMazim" target="_blank">Kainã Mazim</a>.
+  </footer>
+</body>
+</html>
