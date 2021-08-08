@@ -43,39 +43,38 @@ div.card {
 }
 /* Side A */
 div.sideA {
-    padding-block: 7%;
-    padding-inline: 8%;
+    padding-block: 4rem;
+    padding-inline: 5.5rem;
     display: flex;
     flex-direction: column;
     font-size: 15px;
     flex-basis: 620px;
 }
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
 }
 h1 span {
     color: hsl(277, 64%, 61%);
 }
 div.sideA p {
     margin-block: 2rem 4rem;
-    width: 90%;
+    max-width: 390px;
 }
 /* Icons Container */
 div.icons-container {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 85%;
+    max-width: 352px;
     justify-content: space-between;
-    text-align: center;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 16.5px;
 }
 div.icons-container span {
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 13.5px;
+    font-size: 14px;
 }
 /* Side B */
 div.sideB {
@@ -84,10 +83,11 @@ div.sideB {
     background-size: cover;
     flex-grow: 1;
     flex-basis: 540px;
-    min-height: 223px;
+    min-height: 240px;
 }
 div.filter {
-    background-color: rgba(106, 49, 141, 0.6);
+    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
     width: 100%;
     height: 100%;
 }
@@ -98,22 +98,27 @@ div.filter {
     }
     div.sideA {
         text-align: center;
+        align-items: center;
+        padding-block: 2.5rem;
+        padding-inline: 2rem;
     }
     h1 {
         font-size: 1.5rem;
     }
     div.sideA p {
-        width: 100%;
         margin-block: 2rem;
     }
     div.icons-container {
-        width: 100%;
         justify-content: center;
+        text-align: center;
         column-gap: 5rem;
         row-gap: 1rem;
     }
     div.icons-container > *{
         flex-grow: 1;
         flex-basis: 8rem;
+    }
+    div.sideB {
+        background-image: url('../images/image-header-mobile.jpg');
     }
 }
